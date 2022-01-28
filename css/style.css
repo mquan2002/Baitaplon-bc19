@@ -6,8 +6,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background: #232220;
-    color: #c2d0da;
+    color: black;
     font-family: 'Quicksand', sans-serif;
 }
 a {
@@ -20,13 +19,13 @@ p {
     padding: 0;
     font-size: 18px;
     line-height: 28px;
-    color: #c2d0da;
+    color: #161c2db3;
     font-family: 'Quicksand', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-    color: #eee;
+    color: black;
     font-family: 'Quicksand', sans-serif;
 }
 .title  {
@@ -103,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 6px;
     position: relative;
     right: 0;
-    background: black;
+    background: white;
     outline: 0;
     border: 1px solid black;
 }
@@ -113,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
     top: 15px;
     cursor: pointer;
+    color: #161c2db3;
 }
 .theme-switch {
     display: inline-block;
@@ -261,7 +261,7 @@ button#trigger-overlay {
 }
 /* About Us */
 .aboutUs {
-    padding: 3rem;
+    padding: 7rem 3rem;
 }
 .row {
     display: flex;
@@ -329,7 +329,7 @@ button#trigger-overlay {
 }
 .block_subcribe_content .content_a {
     display: block;
-    color: #eee;
+    color: black;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 15px;
@@ -349,7 +349,7 @@ button#trigger-overlay {
 
 /* gallery */
 .gallery {
-    background-color: #282828;
+    background-color: white;
     padding: 3rem 0 3rem 0;
 }
 
@@ -435,7 +435,10 @@ img {
     border-radius: 8px;
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
     position: relative;
-    border: 1px solid #ffffff1a;
+    border: 1px solid #eee;
+}
+.service_box:hover {
+    box-shadow: 5px -5px 5px #eee;
 }
 .service_box h4 a {
     font-size: 24px;
@@ -443,7 +446,7 @@ img {
     margin-top: 5px;
     margin-bottom: 0px;
     display: block;
-    color: #eee;
+    color: black;
     transition: 0.3s ease-in-out;
 }
 .service_box h4 a:hover{
@@ -456,7 +459,7 @@ img {
     width: 70px;
     height: 70px;
     text-align: center;
-    background: #282828;
+    background: #8273fc0d;
     line-height: 70px;
     border-radius: 6px;
     transition: 0.3s ease-in-out;
@@ -465,16 +468,16 @@ img {
 .service_box:hover .icon {
     background-color: #ff6600;
     transition: 0.3s ease-in-out;
+   
 }
 .service_box:hover .icon span.fa {
     color: #fff;
     transition: 0.3s ease-in-out;
 }
 .service_box .icon span.fa {
-    color: white;
     font-size: 25px;
     line-height: 70px;
-  }
+}
   
 
 
